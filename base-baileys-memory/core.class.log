@@ -1,0 +1,119 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '51943560171@s.whatsapp.net',
+    fromMe: false,
+    id: 'DFE8D12B88FDCE8E145F489A830AC5FC',
+    participant: undefined
+  },
+  messageTimestamp: 1719840353,
+  pushName: '🧑🏻‍💻',
+  broadcast: false,
+  message: Message {
+    conversation: 'hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '51943560171'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_27907904-8792-4d59-9e1c-d4b959fd7249',
+  keyword: 'key_da655c12-19a2-4e4c-8bb4-b431c44e2f09',
+  answer: '🙌🏻 ¡Hola!🖐️ Bienvenid@ a exportación de frutas. ¿Listo para mejorar tu negocio?',
+  options: {
+    media: 'https://i.imgur.com/I5fng2P.png',
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'da727a952cc53a491fcbeca463e8386d'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_ca878628-65d7-4719-8425-55a35e350429',
+  keyword: 'ans_27907904-8792-4d59-9e1c-d4b959fd7249',
+  answer: 'Somos una empresa que exporta varias variedades de frutas a todo el país.\n' +
+    '¿En qué puedo ayudarte hoy?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'b9acfa2e67069c95511d20fd3ec6bb82'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_1d1faefd-3772-4a46-a31a-9980a68a0281',
+  keyword: 'ans_ca878628-65d7-4719-8425-55a35e350429',
+  answer: 'Le brindamos nuestras opciones principales:\n' +
+    'Marque 1 si desea saber más información sobre los precios.\n' +
+    'Marque 2 si desea conocer nuestra tienda.\n' +
+    'Marque 3 si desea saber cómo hacemos envíos.\n' +
+    'Marque 4 si desea videos sobre nuestra elaboración y carga de mercancía.\n' +
+    'Marque 5 si desea que le llamemos.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'f9359b43b9b9a12f20a9d7784d445921'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51943560171@s.whatsapp.net',
+    fromMe: false,
+    id: '179F579D93C2FAE62505AB282A827DBE',
+    participant: undefined
+  },
+  messageTimestamp: 1719840362,
+  pushName: '🧑🏻‍💻',
+  broadcast: false,
+  message: Message {
+    conversation: '4',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '4',
+  from: '51943560171'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_473db175-1f88-43fb-a6bb-d144d3c05d02',
+  keyword: 'key_8b104750-599f-41de-abe6-a51a2afd59f6',
+  answer: 'Hola, gracias por comunicarte con nosotros.\n' +
+    'Aquí tienes videos de nuestra elaboración y cargas de mercancía:',
+  options: {
+    media: 'https://www.w3schools.com/html/mov_bbb.mp4',
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '3cf10cfd6bb5bafedddedf3456d56b80'
+}
