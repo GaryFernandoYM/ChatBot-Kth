@@ -2,25 +2,25 @@
   key: {
     remoteJid: '51943560171@s.whatsapp.net',
     fromMe: false,
-    id: 'DFE8D12B88FDCE8E145F489A830AC5FC',
+    id: 'CA61773265C98743F1D44A1C95EA5CD6',
     participant: undefined
   },
-  messageTimestamp: 1719840353,
+  messageTimestamp: 1719843022,
   pushName: '🧑🏻‍💻',
   broadcast: false,
   message: Message {
-    conversation: 'hola',
+    conversation: 'Hola',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'hola',
+  body: 'Hola',
   from: '51943560171'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_27907904-8792-4d59-9e1c-d4b959fd7249',
-  keyword: 'key_da655c12-19a2-4e4c-8bb4-b431c44e2f09',
+  ref: 'ans_5068bae8-d46c-4695-9fce-c34b12612b14',
+  keyword: 'key_22cd6fcc-0214-4265-bb96-d335fcc8b9ff',
   answer: '🙌🏻 ¡Hola!🖐️ Bienvenid@ a exportación de frutas. ¿Listo para mejorar tu negocio?',
   options: {
     media: 'https://i.imgur.com/I5fng2P.png',
@@ -34,11 +34,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'da727a952cc53a491fcbeca463e8386d'
+  refSerialize: '33d6be8658e4e125778de8d6c844259e'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_ca878628-65d7-4719-8425-55a35e350429',
-  keyword: 'ans_27907904-8792-4d59-9e1c-d4b959fd7249',
+  ref: 'ans_bd8405c7-95fd-4774-8247-47c3daa0e016',
+  keyword: 'ans_5068bae8-d46c-4695-9fce-c34b12612b14',
   answer: 'Somos una empresa que exporta varias variedades de frutas a todo el país.\n' +
     '¿En qué puedo ayudarte hoy?',
   options: {
@@ -53,11 +53,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'b9acfa2e67069c95511d20fd3ec6bb82'
+  refSerialize: '732333ba335522aa0e737e85b27d3484'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_1d1faefd-3772-4a46-a31a-9980a68a0281',
-  keyword: 'ans_ca878628-65d7-4719-8425-55a35e350429',
+  ref: 'ans_8ec4299f-c8b2-41d8-98f1-63ddee1dca06',
+  keyword: 'ans_bd8405c7-95fd-4774-8247-47c3daa0e016',
   answer: 'Le brindamos nuestras opciones principales:\n' +
     'Marque 1 si desea saber más información sobre los precios.\n' +
     'Marque 2 si desea conocer nuestra tienda.\n' +
@@ -76,16 +76,131 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'f9359b43b9b9a12f20a9d7784d445921'
+  refSerialize: '19161f6084ce5adbd83838bd8a972b4c'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '51943560171@s.whatsapp.net',
     fromMe: false,
-    id: '179F579D93C2FAE62505AB282A827DBE',
+    id: 'B550A935C727CB3A2490ABC1946D5DBC',
     participant: undefined
   },
-  messageTimestamp: 1719840362,
+  messageTimestamp: 1719843032,
+  pushName: '🧑🏻‍💻',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '51943560171'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_4e65976a-aa2e-4247-b1f3-8a0d46b200d8',
+  keyword: 'key_570ef790-dc8e-48fb-87ee-3ff1e761ae1c',
+  answer: 'Hola, gracias por comunicarte con nosotros. Los precios son: desde $67 y $55.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a19514bc6ff05ff680c62d33cfea2a27'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51943560171@s.whatsapp.net',
+    fromMe: false,
+    id: '0B1370AC9D21A5D662174933564B7D26',
+    participant: undefined
+  },
+  messageTimestamp: 1719843035,
+  pushName: '🧑🏻‍💻',
+  broadcast: false,
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '51943560171'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_5cc2eec9-03ae-4f3a-a3c7-c91c20cb9235',
+  keyword: 'key_9ff39459-91d7-4120-b6e8-bbc59a2154c5',
+  answer: 'Hola, gracias por comunicarte con Exportación Luna. Nos ubicamos en Perú, Arequipa, Av. Inti 167.\n' +
+    'Pagina Web: https://frutasluna.com',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'dc06a582af550ac1c0beab2968b4de13'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51943560171@s.whatsapp.net',
+    fromMe: false,
+    id: '78DBB393EA5892C67E515044B00A1C32',
+    participant: undefined
+  },
+  messageTimestamp: 1719843037,
+  pushName: '🧑🏻‍💻',
+  broadcast: false,
+  message: Message {
+    conversation: '3',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '3',
+  from: '51943560171'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_c0637607-6404-4e69-a4a7-67be2321154c',
+  keyword: 'key_39cedb01-655e-4319-8f41-fbc3f9fc56f0',
+  answer: 'Hola, gracias por comunicarte con nosotros. Realizamos los envíos mediante transporte.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '3de7f6df0961ea4942b92b311deefdeb'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51943560171@s.whatsapp.net',
+    fromMe: false,
+    id: '2AD803EC2E9E3C3BFD00A7BA5E987033',
+    participant: undefined
+  },
+  messageTimestamp: 1719843043,
   pushName: '🧑🏻‍💻',
   broadcast: false,
   message: Message {
@@ -99,12 +214,13 @@
   from: '51943560171'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_473db175-1f88-43fb-a6bb-d144d3c05d02',
-  keyword: 'key_8b104750-599f-41de-abe6-a51a2afd59f6',
+  ref: 'ans_dadb69d4-063a-418c-b417-7e14b2f27e59',
+  keyword: 'key_b28f1977-7826-4367-894e-0c058fc7a9aa',
   answer: 'Hola, gracias por comunicarte con nosotros.\n' +
-    'Aquí tienes videos de nuestra elaboración y cargas de mercancía:',
+    'Aquí tienes videos de nuestra elaboración y cargas de mercancía:\n' +
+    'https://www.youtube.com/shorts/OtHgx1Fv9Ko?feature=share',
   options: {
-    media: 'https://www.w3schools.com/html/mov_bbb.mp4',
+    media: 'https://www.dropbox.com/scl/fi/8jkmqceqw7o0svdr6tpf0/export.mp4?rlkey=knz4b67ko95jpvwmy6v5epyzn&st=vhgk3180&raw=1',
     buttons: [],
     capture: false,
     child: null,
@@ -115,5 +231,5 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '3cf10cfd6bb5bafedddedf3456d56b80'
+  refSerialize: '4362cecb0987efae48859382445145a4'
 }

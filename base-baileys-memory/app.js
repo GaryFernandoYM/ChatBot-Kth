@@ -8,7 +8,7 @@ const flowPrecios = addKeyword(['1', 'precios']).addAnswer(
 );
 
 const flowTienda = addKeyword(['2', 'tienda']).addAnswer(
-    ['Hola, gracias por comunicarte con Exportación Luna. Nos ubicamos en Perú, Arequipa, Av. Inti 167.' ,'Pagina Web: https://frutasluna.com']
+    ['Hola, gracias por comunicarte con Exportación Luna. Nos ubicamos en Perú, Arequipa, Av. Inti 167.', 'Pagina Web: https://frutasluna.com']
 );
 
 const flowEnvios = addKeyword(['3', 'envios']).addAnswer(
@@ -19,12 +19,11 @@ const flowVideos = addKeyword(['4', 'videos']).addAnswer(
     [
         'Hola, gracias por comunicarte con nosotros.',
         'Aquí tienes videos de nuestra elaboración y cargas de mercancía:',
+        'https://www.youtube.com/shorts/OtHgx1Fv9Ko?feature=share'
     ],
     
-    { media: 'https://www.w3schools.com/html/mov_bbb.mp4' }
-    
+    { media: 'https://www.dropbox.com/scl/fi/8jkmqceqw7o0svdr6tpf0/export.mp4?rlkey=knz4b67ko95jpvwmy6v5epyzn&st=vhgk3180&raw=1' } // Enlace directo del video en Dropbox
 );
-
 
 const flowContacto = addKeyword(['5', 'contacto']).addAnswer(
     ['Hola, si deseas comunicarte con nosotros, llama al número 966348458.']
@@ -60,24 +59,33 @@ const flowPrincipal = addKeyword(['hola', 'ole', 'alo'])
     );
 
 const main = async () => {
-    const adapterDB = new MockAdapter();
-    const adapterFlow = createFlow([
-        flowPrincipal,
-        flowPrecios,
-        flowTienda,
-        flowEnvios,
-        flowVideos,
-        flowContacto
-    ]);
-    const adapterProvider = createProvider(BaileysProvider);
+    try {
+        const adapterDB = new MockAdapter();
+        const adapterFlow = createFlow([
+            flowPrincipal,
+            flowPrecios,
+            flowTienda,
+            flowEnvios,
+            flowVideos,
+            flowContacto
+        ]);
+        const adapterProvider = createProvider(BaileysProvider);
 
-    createBot({
-        flow: adapterFlow,
-        provider: adapterProvider,
-        database: adapterDB,
-    });
+        createBot({
+            flow: adapterFlow,
+            provider: adapterProvider,
+            database: adapterDB,
+        });
 
-    QRPortalWeb();
+        QRPortalWeb();
+    } catch (error) {
+        console.error('Error initializing bot:', error);
+    }
 };
+
+// Manejo de errores global
+process.on('unhandledRejection', (reason, promise) => {
+    console.error('Unhandled Rejection at:', promise, 'reason:', reason);
+});
 
 main();
